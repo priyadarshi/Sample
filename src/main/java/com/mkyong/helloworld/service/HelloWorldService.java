@@ -23,9 +23,9 @@ public class HelloWorldService {
 		logger.debug("getTitle() is executed! $name : {}", name);
 
 		if(StringUtils.isEmpty(name)){
-			return "Hello World Test";
+			return "Hello World Test 2";
 		}else{
-			return "Hello Test" + name;
+			return "Hello Test 2" + name;
 		}
 		
 	}
