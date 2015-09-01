@@ -71,7 +71,7 @@ cargo {
     }
     
     local {
-        homeDir = file('/opt/tomcat')
+        homeDir = file('/opt/tomcat11')
         outputFile = file('build/output.log')
         timeout = 60000
         
